@@ -1,0 +1,22 @@
+.single_product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+/* .bg_color {
+  background-image: url("../../image/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.bg_color {
+  background: rgb(199, 236, 238);
+  background: linear-gradient(
+    320deg,
+    rgba(199, 236, 238, 1) 0%,
+    rgba(199, 236, 238, 0.9075960309317942) 97%,
+    rgba(120, 200, 211, 0) 99%,
+    rgba(88, 187, 199, 0.918831985987974) 100%,
+    rgba(141, 209, 219, 0.317708390482356) 100%
+  );
+}

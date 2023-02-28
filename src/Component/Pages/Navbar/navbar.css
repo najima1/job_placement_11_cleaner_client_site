@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px) {
+  /*Big smartphones [426px -> 600px]*/
+  .customCss {
+    transform: translate(-1000px);
+    transition: 0.5s;
+  }
+}
+.custom {
+  transform: translateY(-87px);
+  transition: 0.5s;
+}
+.custom2 {
+  transform: translateY(0px);
+  transition: 0.5s;
+  background-color: #f7f8fa;
+}

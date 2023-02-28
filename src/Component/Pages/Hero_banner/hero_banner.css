@@ -1,0 +1,59 @@
+.customBtn {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  padding: 6px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+.customBtn {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.customBtn:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.customBtn:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.customBtn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.bg_color {
+  background: rgb(219, 230, 244);
+  background: radial-gradient(
+    circle,
+    rgba(219, 230, 244, 1) 28%,
+    rgba(236, 241, 247, 1) 47%
+  );
+}
+.hero_bg {
+  background: rgb(240, 246, 254);
+  background: linear-gradient(
+    72deg,
+    rgba(240, 246, 254, 1) 0%,
+    rgba(218, 232, 250, 0.9974836713812324) 0%,
+    rgba(221, 241, 244, 0.8851241208194347) 26%,
+    rgba(255, 255, 255, 0.9023984593837535) 50%
+  );
+}

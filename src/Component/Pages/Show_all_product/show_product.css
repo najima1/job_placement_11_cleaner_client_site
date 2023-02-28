@@ -1,0 +1,7 @@
+.product_bg {
+  background-image: url("../../image/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}

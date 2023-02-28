@@ -1,0 +1,10 @@
+.footer_bg {
+  background: rgb(240, 246, 254);
+  background: linear-gradient(
+    29deg,
+    rgba(240, 246, 254, 1) 0%,
+    rgba(218, 232, 250, 1) 100%,
+    rgba(255, 255, 255, 0.9023984593837535) 100%,
+    rgba(221, 241, 244, 1) 100%
+  );
+}

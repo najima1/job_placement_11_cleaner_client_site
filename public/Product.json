@@ -1,0 +1,110 @@
+[
+  {
+    "product_name": "Washing Up Liquid",
+    "product_price": "19.00",
+    "image": "https://i.ibb.co/bKmmkYp/product-3-copyright-630x630-1.jpg",
+    "desc": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.",
+    "desc2": "Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "sku_id": "003",
+    "category": "Accessories",
+    "tags": "Dishwashing, Kitchen, Laundry",
+    "product_id": "2258",
+    "review": []
+  },
+  {
+    "product_name": "Washing Up Liquid",
+    "product_price": "12.00",
+    "image": "https://i.ibb.co/h1YNHdH/product-1-copyright-630x630.jpg",
+    "desc": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.",
+    "desc2": "Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "sku_id": "005",
+    "category": "Accessories",
+    "tags": "Dishwashing, Kitchen, Laundry",
+    "product_id": "228",
+    "review": []
+  },
+  {
+    "product_name": "Household Basket",
+    "product_price": "50.00",
+    "image": "https://i.ibb.co/P99STyL/product-2-copyright-630x630.jpg",
+    "desc": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.",
+    "desc2": "Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum. Stet clitain vidunt ut labore eirmod tempor invidunt magna aliquyam. Stet clitain vidunt ut labore.",
+    "sku_id": "008",
+    "category": "Accessories",
+    "tags": "Dishwashing, Kitchen, Laundry",
+    "product_id": "528",
+    "review": []
+  },
+  {
+    "product_name": "Vacuum Cleaner Bag",
+    "product_price": "20.00",
+    "image": "https://i.ibb.co/Xs0DsV9/product-3-copyright-630x630.jpg",
+    "desc": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.",
+    "desc2": "Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum. Stet clitain vidunt ut labore eirmod tempor invidunt magna aliquyam. Stet clitain vidunt ut labore.",
+    "sku_id": "009",
+    "category": "Accessories",
+    "tags": "Dishwashing, Kitchen, Laundry",
+    "product_id": "218",
+    "review": []
+  },
+  {
+    "product_name": "Dish Brush",
+    "product_price": "15.00",
+    "image": "https://i.ibb.co/PgW0ByV/product-4-copyright-630x630.jpg",
+    "desc": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.",
+    "desc2": "Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum.",
+    "sku_id": "010",
+    "category": "Accessories",
+    "tags": "Dishwashing, Kitchen",
+    "product_id": "2180",
+    "review": []
+  },
+  {
+    "product_name": "Belly Basket",
+    "product_price": "19.00",
+    "image": "https://i.ibb.co/QFH7HWV/product-5-copyright-630x630.jpg",
+    "desc": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum dolor. Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore.",
+    "desc2": "At vero accusam et justo duo dolores et ea rebum. Stet clitain vidunt ut labore eirmod tempor invidunt magna aliquyam.",
+    "sku_id": "011",
+    "category": "Accessories",
+    "tags": "Bathroom, Detergent, Dishwashing",
+    "product_id": "2400",
+    "review": []
+  },
+  {
+    "product_name": "Rubber Gloves",
+    "product_price": "19.00-20.00",
+    "image": "https://i.ibb.co/F8LM0CD/product-7-copyright-630x630.jpg",
+    "desc": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.",
+    "desc2": "Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum. Stet clitain vidunt ut labore eirmod tempor invidunt magna aliquyam. Stet clitain vidunt ut labore",
+    "sku_id": "012",
+    "category": "Household",
+    "tags": "Dishwashing, Eco-friendly, Sanitizer",
+    "product_id": "2490",
+    "review": []
+  },
+  {
+    "product_name": "Clothes Brush",
+    "product_price": "25.00",
+    "image": "https://i.ibb.co/g3LpSp4/product-8-copyright-630x630.jpg",
+    "desc": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.",
+    "desc2": "Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum. Stet clitain vidunt ut labore eirmod tempor invidunt magna aliquyam. Stet clitain vidunt ut labore",
+    "sku_id": "012",
+    "category": "Household",
+    "tags": "Dishwashing, Eco-friendly, Sanitizer",
+    "product_id": "3838",
+    "review": []
+  },
+  {
+    "product_name": "Window Scraper",
+    "product_price": "19.00",
+    "image": "https://i.ibb.co/3TkQ1zY/product-11-copyright-630x630.jpg",
+    "desc": "Dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit odit aut fugit, sed quia consequuntur. Lorem ipsum nonum eirmod dolor.",
+    "desc2": "Aquia sit amet, elitr, sed diam nonum eirmod tempor invidunt labore et dolore magna aliquyam.erat, sed diam voluptua. At vero accusam et justo duo dolores et ea rebum. Stet clitain vidunt ut labore eirmod tempor invidunt magna aliquyam. Stet clitain vidunt ut labore",
+    "sku_id": "012",
+    "category": "Household",
+    "tags": "Dishwashing, Laundry",
+    "product_id": "2490",
+    "review": []
+  }
+]

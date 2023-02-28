@@ -1,0 +1,22 @@
+.left_img {
+  background-image: url("../../image/copyright.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right_bg {
+  background-image: url("../../image/copyright2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.responsives {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 2rem;
+  margin: auto;
+}
+.top_banner {
+  background-image: url("../../image/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

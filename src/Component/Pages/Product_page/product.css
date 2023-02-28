@@ -1,0 +1,128 @@
+.product_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  gap: 2rem;
+}
+.bg_main {
+  background: rgb(218, 232, 250);
+  background: linear-gradient(
+    346deg,
+    rgba(218, 232, 250, 0.9974836713812324) 0%,
+    rgba(224, 243, 246, 1) 0%,
+    rgba(141, 209, 219, 0.6744499635160639) 67%,
+    rgba(224, 243, 246, 0.4413038961003336) 100%
+  );
+  /* background-color: #f0f6fe; */
+}
+
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.glow-on-hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.temp:hover .tempImg {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.temp {
+  overflow: hidden;
+}
+.icon1 {
+  transform: translateY(10px);
+  transition: 0.5s;
+  opacity: 0;
+}
+.icon2 {
+  transform: translateY(30px);
+  transition: 0.5s;
+  opacity: 0;
+}
+.icon3 {
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+}
+.temp:hover .icon1 {
+  transform: translateY(0px);
+  opacity: 100;
+}
+.temp:hover .icon2 {
+  transform: translateY(0px);
+  opacity: 100;
+}
+.temp:hover .icon3 {
+  transform: translateY(0px);
+  opacity: 100;
+}

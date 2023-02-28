@@ -1,0 +1,6 @@
+.bg_error {
+  background-image: url("../../image/errorImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* object-fit: cover; */
+}
