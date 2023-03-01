@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { useRef } from "react";
-import { useContext } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
+import axios from "axios";
 
 import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
 import { useProvider } from "../../Context/Context_provider";
@@ -30,6 +29,9 @@ const Sign_in = () => {
       .then((userCredential) => {
         const user = userCredential.user;
 
+        //generate json web token after login
+        //
+        makeJWTtoken(user);
         toast.success("login successfull");
         navigate(from, { replace: true });
 
@@ -39,6 +41,27 @@ const Sign_in = () => {
         toast.error(e.message);
         setLoading(false);
       });
+  };
+
+  //get jwt token from backend as well as store token in localStorage
+  const makeJWTtoken = async (user) => {
+    try {
+      // const url_token = `http://localhost:8000/JWT`;
+      const url_token = `${process.env.REACT_APP_URL}/JWT`;
+
+      await axios
+        .post(url_token, user.email)
+        .then((token) => {
+          const jwt_token = token.data.data;
+
+          localStorage.setItem("jwt-token", JSON.stringify(jwt_token));
+        })
+        .catch((e) => console.log(e.message));
+
+      //
+    } catch (error) {
+      console.log(error.message);
+    }
   };
 
   return (
