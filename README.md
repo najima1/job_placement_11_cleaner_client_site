@@ -1,6 +1,8 @@
 # Getting Started with Create React App
+https://github.com/najima1/najima1/blob/46d2afe46aa35f5d1de85054ad73d68d3644241a/ss.png
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![cleaner templete](https://github.com/facebook/create-react-app)
 
 ## Available Scripts
 
