@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 https://github.com/najima1/najima1/blob/46d2afe46aa35f5d1de85054ad73d68d3644241a/ss.png
 
+![ss](https://user-images.githubusercontent.com/91420693/222044955-63838746-ebca-42c3-adcc-39e325ddaf6c.png)
 
-![mohammed nazim](https://user-images.githubusercontent.com/91420693/218066753-0c432119-db76-40e4-b872-837ca4e4f2f2.png)
 
 ## Available Scripts
 
