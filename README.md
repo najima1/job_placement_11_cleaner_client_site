@@ -65,17 +65,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### `yarn run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Here is a project Demo link
+===================================================================================================================
+## Here is a project Demo link
 https://glittering-pudding-f40c5e.netlify.app
 
-### Description 
+## Description 
 The templete is made for Accessories products. Where an user can visite the website as well as he can purcheses any tipe of product. Even an user can give a review about the product that he/she has purchased. There are multiple type of accessories product which we use constantly.
 
-### Project features 
+## Project features 
 1. An user can login , logout & sign up 
 2. If user dosen't login he can't see review route 
 3. If user dosen't login in the website he can't click the review button even can't give review about the product.
