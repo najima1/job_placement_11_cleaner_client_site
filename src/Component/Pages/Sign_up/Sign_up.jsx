@@ -14,9 +14,8 @@ const Sign_up = () => {
   } = useForm();
 
   // get user state from firebase
-  const { createUserEmailPassword, loading, setLoading } = useProvider();
-
-  console.log(loading);
+  const { createUserEmailPassword, loading, setLoading, signOutUser } =
+    useProvider();
 
   //navigate user
   const navigate = useNavigate();
@@ -28,12 +27,23 @@ const Sign_up = () => {
         toast.success("User created successfull");
         navigate("/signin");
 
-        setLoading(true);
-        reset();
+        singOutAftetLogin();
       })
       .catch((e) => {
         toast.error(e.message);
         setLoading(false);
+      });
+  };
+
+  //sign out user after register
+  const singOutAftetLogin = () => {
+    signOutUser()
+      .then(() => {
+        setLoading(false);
+        reset();
+      })
+      .catch((e) => {
+        toast.error(e.message);
       });
   };
 
