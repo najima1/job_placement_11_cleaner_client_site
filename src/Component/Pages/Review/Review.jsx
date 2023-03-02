@@ -32,7 +32,7 @@ const Review = () => {
       {isLoading ? (
         <Screen_loader />
       ) : (
-        <div className="h-full">
+        <div className="">
           <div className=" bg-[#E6EEF7] py-16 md:py-24 ">
             <div className="container md:w-1/2">
               <div className="h-full">
