@@ -32,10 +32,10 @@ const Review = () => {
       {isLoading ? (
         <Screen_loader />
       ) : (
-        <div className="h-screen">
+        <div className="h-full">
           <div className=" bg-[#E6EEF7] py-16 md:py-24 ">
             <div className="container md:w-1/2">
-              <div className="h-screen">
+              <div className="h-full">
                 {reviewData.length === 0 ? (
                   <h1 className="py-11 text-2xl text-[#273c75] flex items-center justify-center md:text-4xl font-semibold">
                     There is not Product review
