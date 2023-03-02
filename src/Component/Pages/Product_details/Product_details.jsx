@@ -213,13 +213,13 @@ const Product_details = () => {
                                 placeholder="review"
                                 id=""
                                 cols="30"
-                                rows="1"
+                                rows="4"
                                 ref={reviewInput}
-                                className="outline-none p-2 "
+                                className="outline-none p-2 w-full"
                               ></textarea>
                               <button
                                 disabled={currentUser?.uid ? false : true}
-                                className="px-6 py-1 bg-[#00cec9] text-white"
+                                className="px-6 py-1 bg-[#00cec9] text-white h-11"
                               >
                                 Review
                               </button>

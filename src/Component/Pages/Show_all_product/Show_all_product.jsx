@@ -19,11 +19,13 @@ const Show_all_product = () => {
   } = useQuery({
     queryKey: ["allProducts"],
     queryFn: async () => {
+      //
       const data = await axios.get(url);
 
       return data.data.data;
     },
   });
+
 
   return (
     <>
