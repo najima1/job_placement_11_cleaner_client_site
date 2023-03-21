@@ -67,15 +67,16 @@ https://glittering-pudding-f40c5e.netlify.app
 The templete is made for Accessories products. Where an user can visite the website as well as he can purcheses any tipe of product. Even an user can give a review about the product that he/she has purchased. There are multiple type of accessories product which we use constantly.
 
 ## Project features 
-1. An user can login , logout & sign up 
-2. If user dosen't login he can't see review route 
-3. If user dosen't login in the website he can't click the review button even can't give review about the product.
-4. If user click any type of product without login he/she will redirect in the login page
-5. The website form totally validate.
-6. The website totally responsive for mobile & desktop
-7. If user can click the review route he/she can see all review product as well as he/she can delete any review.
-8. If user click the service route then he can see all available product in the service page.
-9. If user want he/she can contact with product manager.
+1. If a user visits the landing page he/she will see all products & all contents.
+2. A user can log in, logout & sign up
+3. If the user doesn't log in he can't see the review route
+4. Even he/she can't give any review about the product.
+5. If a user clicks any type of product without login he/she will redirect to the login page
+6. The login & register page totally validated.
+7. The website is totally responsive for mobile & desktop.
+8. If a user can click the review route he/she can see all review products as well as he/she can delete any reviews.
+9. If a user clicks the service route then he can see all available products on the service page.
+10.If a user wants he/she can contact with the manager.
 
 ### Uses Technology 
 
