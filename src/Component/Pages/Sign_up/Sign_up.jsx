@@ -28,6 +28,7 @@ const Sign_up = () => {
         navigate("/signin");
 
         singOutAftetLogin();
+        setLoading(false);
       })
       .catch((e) => {
         toast.error(e.message);
